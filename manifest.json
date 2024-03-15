@@ -1,0 +1,23 @@
+{
+  "name": "Simple Ad Blocker",
+  "description": "Simple Ad Blocker for your Web Browser",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "permissions": ["declarativeNetRequest"],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "priority": 1,
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
